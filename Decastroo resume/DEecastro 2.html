@@ -104,7 +104,7 @@
   </section>
 
   <footer class="text-center py-4 bg-gray-800 text-white">
-    &copy; 2025 Your Name. All rights reserved.
+    &copy; 2025 Aira T. De castro. All rights reserved.
   </footer>
 </body>
 </html>

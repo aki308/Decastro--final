@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Resume | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <!-- Navigation -->
+  <header class="sticky top-0 bg-white shadow z-50">
+    <nav class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-xl font-bold">My Portfolio</h1>
+      <ul class="flex space-x-4">
+        <li><a href="#about" class="hover:text-blue-500">About</a></li>
+        <li><a href="#skills" class="hover:text-blue-500">Skills</a></li>
+        <li><a href="#education" class="hover:text-blue-500">Education</a></li>
+        <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+        <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <!-- Hero Section -->
+  <section class="h-screen bg-gradient-to-br from-blue-100 to-white flex items-center justify-center">
+    <div class="text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm Aira T. De castro</h2>
+      <p class="text-lg text-red-600">Web Developer | Software Engineer | Tech Enthusiast</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 bg-white">
+    <div class="container mx-auto max-w-3xl px-4">
+      <h3 class="text-3xl font-bold mb-4">About Me</h3>
+      <p class="text-gray-700 leading-relaxed">
+        I'm a passionate developer with a knack for building clean, efficient, and scalable software solutions. I love turning ideas into reality using code.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-6">Skills</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="bg-white p-4 rounded shadow text-center">JavaScript</div>
+        <div class="bg-white p-4 rounded shadow text-center">React</div>
+        <div class="bg-white p-4 rounded shadow text-center">Node.js</div>
+        <div class="bg-white p-4 rounded shadow text-center">HTML/CSS</div>
+        <div class="bg-white p-4 rounded shadow text-center">Tailwind CSS</div>
+        <div class="bg-white p-4 rounded shadow text-center">MongoDB</div>
+        <div class="bg-white p-4 rounded shadow text-center">Git</div>
+        <div class="bg-white p-4 rounded shadow text-center">Figma</div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Education -->
+  <section id="education" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-6">Education</h3>
+      <div>
+        <h4 class="text-xl font-semibold">Batchelor of Science in Information Technology</h4>
+        <p class="text-gray-700">COLLEGE: Colegio de la Purisima Conception | Roxas City, Capiz</p>
+        <p class="text-gray-700">SENIOR HIGH SCHOOL: Colegio De la Purisima Conception | Roxas City,Capiz</p>
+        <p class="text-gray-700">JUNIOR HIGH SCHOOL: College of St. John(CSJ-R De La Salle) | Roxas City, Capiz</p>
+        <p class="text-gray-700">ELEMENTARY: Palanas Central School | Masbate City </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-6">Projects</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-gray-100 p-4 rounded shadow">
+          <h4 class="text-xl font-semibold">Portfolio Website</h4>
+          <p class="text-gray-700">Personal portfolio built with React and Tailwind.</p>
+        </div>
+        <div class="bg-gray-100 p-4 rounded shadow">
+          <h4 class="text-xl font-semibold">Meat Store System</h4>
+          <p class="text-gray-700">OOP-based JavaScript app to manage inventory and transactions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-gray-900 text-white">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
+      <p>Email: airadecastro@gmail.com</p>
+      <p>LinkedIn: <a href="#" class="text-blue-400 underline">linkedin.com/in/yourname</a></p>
+      <p>GitHub: <a href="#" class="text-blue-400 underline">github.com/yourname</a></p>
+    </div>
+  </section>
+
+  <footer class="text-center py-4 bg-gray-800 text-white">
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
+</body>
+</html>
